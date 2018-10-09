@@ -2,7 +2,7 @@ import { createReducer } from 'utils/functions';
 import { TypeKeys } from './constants';
 import { Node, AddNodeAction, RemoveNodeAction, EditNodeAction, SelectNodeAction } from './actions';
 
-export const defaultNode = 'MyCryptoAPI';
+export const defaultNode = 'Pyrexcoin Block Explorer';
 
 export interface NodeState {
   selectedNode: string;

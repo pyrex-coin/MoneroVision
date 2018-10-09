@@ -61,6 +61,11 @@ const config = merge(common, {
         from: path.join(__dirname, '../src/assets/imgs/favicon/safari-pinned-tab.svg'),
         to: path.join(__dirname, '../dist')
       }
+      ,
+      {
+        from: path.join(__dirname, '../src/assets/imgs/logo_128.png'),
+        to: path.join(__dirname, '../dist')
+      }
     ])
   ]
 });
