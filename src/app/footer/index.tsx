@@ -6,13 +6,18 @@ import './footer.scss';
 export const Footer = () => (
   <footer className="Footer">
     <div className="Footer-inner">
+      <a
+        className="Footer-logo mycrypto"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://pyrexcoin.com"
+      >
+        <Logo />
+      </a>
       <div className="flex-spacer" />
       <div className="Footer-main-content">
-        <a className="Footer-logo" href="https://pyrexcoin.com">
-          <Logo />
-        </a>
         <p className="Footer-main-content-text">
-          Pyrexcoin block explorer.<br/>Next generation cryptocurrency
+        <a href="https://pyrexcoin.com">Pyrexcoin</a> block explorer.<br/>Next generation cryptocurrency
         </p>
       </div>
       <div className="flex-spacer" />
