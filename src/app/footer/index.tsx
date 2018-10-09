@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { PoweredByMyCrypto } from './poweredby';
 import { Logo } from './logo';
 import './footer.scss';
 
