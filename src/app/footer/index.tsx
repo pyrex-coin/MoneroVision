@@ -6,14 +6,6 @@ import './footer.scss';
 export const Footer = () => (
   <footer className="Footer">
     <div className="Footer-inner">
-      <a
-        className="Footer-logo mycrypto"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://mycrypto.com"
-      >
-        <PoweredByMyCrypto />
-      </a>
       <div className="flex-spacer" />
       <div className="Footer-main-content">
         <a className="Footer-logo" href="https://pyrexcoin.com">
