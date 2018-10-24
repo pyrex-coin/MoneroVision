@@ -11,7 +11,7 @@ export interface NodeState {
 
 export const INITIAL_STATE: NodeState = {
   selectedNode: defaultNode,
-  nodes: [{ name: defaultNode, url: 'http://pyrex-explorer.tokl.io:8081' }]
+  nodes: [{ name: defaultNode, url: 'https://explore.pyrexcoin.com' }]
 };
 
 function addNode(state: NodeState, action: AddNodeAction): NodeState {

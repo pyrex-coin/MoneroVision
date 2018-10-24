@@ -163,7 +163,7 @@ class AddNodeClass extends React.Component<Props, State> {
           // inlinelabel={pending ? 'Connecting to node...' : ''}
           required={true}
           error={urlError}
-          placeholder="http://pyrex-explorer.tokl.io:8081"
+          placeholder="https://explore.pyrexcoin.com"
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             this.onChange('url', e.target.value)
           }
